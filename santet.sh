@@ -89,8 +89,7 @@ spam(){
                     clear
                     echo Melakukan Santet ke nomor $target
                     echo
-                    echo "Jangan keluar dari ruang santet sebelum santet selesai dikirim nantinya bisa berbalik"
-                    echo "========================================"
+                    echo "Jangan keluar dari ruang santet sebelum santet selesai dikirim nantinya bisa berbalik
                     target_do=$get_sms'/sms.php?nomor='$target'&paket='$paket
                     CURL_RESPONSE=`curl -s -o /dev/null -w "%{http_code}" $target_do`
                     echo " jangan mengaku hacker kalau hanya pansos saja"
