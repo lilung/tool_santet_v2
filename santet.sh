@@ -44,8 +44,6 @@ load(){
         sleep 0.2
     done
 }
-get_sms=$(curl -s    done
-}
 get_sms=$(curl -s http://zlucifer.com/api/hackbae.php?request=sms)
 get_call=$(curl -s http://zlucifer.com/api/hackbae.php?request=call)
 mulai (){
